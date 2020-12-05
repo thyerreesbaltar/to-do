@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1,h2{
+color:#F8F8FF;
+
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+}
+
+#app{
+    width: 100vw;
+    height: 100%;
+    /* background-color: #353749; */
+    background: #87CEFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#app .box-sizing{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: #433747; */
+
+    background: rgba(0, 0, 128, 0.6);;
+    border-radius: 5px;
+
+    min-width: 600px;
+    min-height: 400px;
+
+    padding: 25px;
+    /*
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 25px 25px 50px;
+    z-index: 2; */
+}
+
+#app .box-sizing .list-items{
+     width: 300px;
+    /* height: 350px;  */
+    /* background: #2D4151; */
+    background: #93DEEE;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 5px;
+}
+
+#app .list-items h1{
+    margin: 25px;
+}
+
+#app ul{
+}
+
+#app ul li{
+    width: 200px;
+
+    /* background: #535464; */
+
+    background: #BB92EF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    flex-wrap: wrap;
+
+    color: white;
+    padding: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+#app ul li:first-child{
+    border-radius: 5px 5px 0 0;
+}
+
+#app ul li:nth-child(even){
+    /* background: #35565F; */
+
+    background: #BDD8A9;
+}
+
+#app ul li:last-child{
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 25px;
+}
+
+
+#app .add-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+#app .add-items input{
+    width: 250px;
+    height: 60px;
+
+    padding: 15px;
+
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+
+    /* background: #2D4151; */
+
+    background: #93DEEE;
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#app .add-items button{
+    width: 250px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    /* background: #675050; */
+    background: #FF9A82;
+}
+
+#app .add-items button h2{
+    margin-right: 15px;
+}
